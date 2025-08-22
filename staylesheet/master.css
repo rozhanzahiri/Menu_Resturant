@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base{
+    .row{
+        @apply flex flex-wrap w-full
+    }
+    
+}
+
+@layer components{
+
+}
+
+@layer utilities{
+
+}
+
+body{
+     font-family: "Italianno", cursive;
+     background-color: #f9f7f3;
+}

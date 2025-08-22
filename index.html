@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="staylesheet/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontello.css">
+</head>
+
+<body>
+    <div class="row">
+        <!-- ////////////menu//////////// -->
+        <h1 class="text-8xl text-center w-full mt-10">Get recipes straight</h1>
+        <section
+            class="w-[90%] lg:w-[60%] mx-auto mt-8 flex justify-evenly *:w-[15%] *:md:w-[18%] *:h-[50px] *:flex *:justify-center *:items-center *:text-[10px] *:md:text-2xl *:rounded-2xl *:cursor-pointer *:hover:border-[1px] *:duration-200 *:hover:scale-105">
+            <button id="breakfastmenu" class="bg-[#dcfce7]  text-green-600">BREAKFAST</button>
+            <button id="lunchmenu"class="bg-[#dbeafe]  text-blue-500">LUNCH</button>
+            <button id="dessertmenu" class="bg-[#ffedd5] text-orange-300">DESSERTS</button>
+            <button id="sidesmenu" class="bg-[#fbcfe8] text-pink-500">SIDES</button>
+            <button id="drinkmenu" class="bg-[#fecaca] text-red-400">DRINKS</button>
+        </section>
+    </div>
+
+    <div class="row">
+        <section  class="w-full min-h-[500px] bg-[#f9f7f3] mt-10 relative">
+            <!-- breakfast/////////////// -->
+            <div id="breakfast" class="w-full  h-full bg-[#f9f7f3] absolute z-[-999] flex flex-wrap *:w-[400px] *:h-[400px] *:mx-auto *:my-4  *:bg-white *:rounded-2xl">
+                <!-- /////////////first breakfast//// -->
+                <div class="lg:mr-16">
+                    <figure class="w-full h-[65%] rounded-2xl *:rounded-t-2xl">
+                        <img class="w-full h-full object-cover" src="img/1.webp" alt="">
+                    </figure>
+                    <a class="text-3xl flex mt-8 ml-2" href="">Breakfast Toast: 3 Different Ways</a>
+                    <div class="row mt-5 justify-between  ">
+                        <button id="breakfastmenu1" class="ml-2  w-[120px] h-[30px] rounded-2xl flex items-center justify-center cursor-pointer  bg-[#dcfce7]  text-green-600">BREAKFAST</button>
+                        <div class="*:text-2xl *: text-gray-500 ">
+                            <i class="icon-clock"></i>
+                            <p class="inline mr-2">5 Minutes</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /////////seconed breakfast////////// -->
+                <div class="lg:ml-16">
+                    <figure class="w-full h-[65%] rounded-2xl *:rounded-t-2xl">
+                        <img class="w-full h-full object-cover" src="img/2.webp" alt="">
+                    </figure>
+                    <a class="text-3xl flex mt-8 ml-2" href="">Quick and Easy Peanut Butter Pancakes</a>
+                    <div class="row mt-5 justify-between ">
+                        <button id="breakfastmenu2"  class="ml-2 cursor-pointer w-[120px] h-[30px] rounded-2xl flex items-center justify-center bg-[#dcfce7]  text-green-600">BREAKFAST</button>
+                        <div class="*:text-2xl *: text-gray-500">
+                            <i class="icon-clock "></i>
+                            <p class="inline mr-2">30 Minutes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- lunch/////////////// -->
+            <div id="lunch" class="w-full  h-full bg-[#f9f7f3] absolute z-[-999] flex flex-wrap *:w-[400px] *:h-[400px] *:mx-auto *:my-4  *:bg-white *:rounded-2xl">
+                <!-- /////////////first lunch//// -->
+                <div class="lg:mr-16">
+                    <figure class="w-full h-[65%] rounded-2xl *:rounded-t-2xl">
+                        <img class="w-full h-full object-cover" src="img/3.webp" alt="">
+                    </figure>
+                    <a class="text-3xl flex mt-8 ml-2" href="">Chickpea Salad with Lemon Tahini Dressing</a>
+                    <div class="row mt-5 justify-between  ">
+                        <button id="lunchmenu1" class="ml-2  w-[120px] h-[30px] rounded-2xl flex items-center justify-center cursor-pointer  bg-[#dbeafe]  text-blue-500">LUNCH</button>
+                        <div class="*:text-2xl *: text-gray-500 ">
+                            <i class="icon-clock"></i>
+                            <p class="inline mr-2">30 Minutes</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /////////seconed lunch////////// -->
+                <div class="lg:ml-16">
+                    <figure class="w-full h-[65%] rounded-2xl *:rounded-t-2xl">
+                        <img class="w-full h-full object-cover" src="img/4.webp" alt="">
+                    </figure>
+                    <a class="text-3xl flex mt-8 ml-2" href="">Chickpea Salad with Lemon Tahini Dressing</a>
+                    <div class="row mt-5 justify-between ">
+                        <button id="lunchmenu2"  class="ml-2 cursor-pointer w-[120px] h-[30px] rounded-2xl flex items-center justify-center bg-[#dbeafe]  text-blue-500">LUNCH</button>
+                        <div class="*:text-2xl *: text-gray-500">
+                            <i class="icon-clock "></i>
+                            <p class="inline mr-2">30 Minutes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- dessert/////////////// -->
+            <div id="dessert" class="w-full  h-full bg-[#f9f7f3] absolute z-[-999] flex flex-wrap *:w-[400px] *:h-[400px] *:mx-auto *:my-4  *:bg-white *:rounded-2xl">
+                <!-- /////////////first dessert//// -->
+                <div class="lg:ml-[8%]">
+                    <figure class="w-full h-[65%] rounded-2xl *:rounded-t-2xl">
+                        <img class="w-full h-full object-cover" src="img/5.webp" alt="">
+                    </figure>
+                    <a class="text-3xl flex mt-8 ml-2" href="">Strawberry Caprese Summer Salad</a>
+                    <div class="row mt-5 justify-between  ">
+                        <button id="dessertmenu1" class="ml-2  w-[120px] h-[30px] rounded-2xl flex items-center justify-center cursor-pointer  bg-[#ffedd5] text-orange-300">DESSERTS</button>
+                        <div class="*:text-2xl *: text-gray-500 ">
+                            <i class="icon-clock"></i>
+                            <p class="inline mr-2">30 Minutes</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /////////seconed dessert////////// -->
+                <div class="lg:mx-auto">
+                    <figure class="w-full h-[65%] rounded-2xl *:rounded-t-2xl">
+                        <img class="w-full h-full object-cover" src="img/6.webp" alt="">
+                    </figure>
+                    <a class="text-3xl flex mt-8 ml-2" href="">Strawberry Caprese Summer Salad</a>
+                    <div class="row mt-5 justify-between ">
+                        <button id="dessertmenu2"  class="ml-2 cursor-pointer w-[120px] h-[30px] rounded-2xl flex items-center justify-center bg-[#ffedd5] text-orange-300">DESSERTS</button>
+                        <div class="*:text-2xl *: text-gray-500">
+                            <i class="icon-clock "></i>
+                            <p class="inline mr-2">30 Minutes</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /////////third dessert////////// -->
+                <div class="lg:mr-[8%]">
+                    <figure class="w-full h-[65%] rounded-2xl *:rounded-t-2xl">
+                        <img class="w-full h-full object-cover" src="img/7.webp" alt="">
+                    </figure>
+                    <a class="text-3xl flex mt-8 ml-2" href="">Strawberry Caprese Summer Salad</a>
+                    <div class="row mt-5 justify-between ">
+                        <button id="dessertmenu3"  class="ml-2 cursor-pointer w-[120px] h-[30px] rounded-2xl flex items-center justify-center bg-[#ffedd5] text-orange-300">DESSERTS</button>
+                        <div class="*:text-2xl *: text-gray-500">
+                            <i class="icon-clock "></i>
+                            <p class="inline mr-2">30 Minutes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sides/////////////// -->
+            <div id="sides" class="w-full  h-full bg-[#f9f7f3] absolute z-[-999] flex flex-wrap *:w-[400px] *:h-[400px] *:mx-auto *:my-4  *:bg-white *:rounded-2xl">
+                <!-- /////////////first sides//// -->
+                <div class="lg:mr-16">
+                    <figure class="w-full h-[65%] rounded-2xl *:rounded-t-2xl">
+                        <img class="w-full h-full object-cover" src="img/8.webp" alt="">
+                    </figure>
+                    <a class="text-3xl flex mt-8 ml-2" href="">Strawberry Caprese Summer Salad</a>
+                    <div class="row mt-5 justify-between  ">
+                        <button id="sidesmenu1" class="ml-2  w-[120px] h-[30px] rounded-2xl flex items-center justify-center cursor-pointer  bg-[#fbcfe8] text-pink-500">SIDES</button>
+                        <div class="*:text-2xl *: text-gray-500 ">
+                            <i class="icon-clock"></i>
+                            <p class="inline mr-2">30 Minutes</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /////////seconed sides////////// -->
+                <div class="lg:ml-16">
+                    <figure class="w-full h-[65%] rounded-2xl *:rounded-t-2xl">
+                        <img class="w-full h-full object-cover" src="img/9.webp" alt="">
+                    </figure>
+                    <a class="text-3xl flex mt-8 ml-2" href="">Strawberry Caprese Summer Salad</a>
+                    <div class="row mt-5 justify-between ">
+                        <button id="sidesmenu2"  class="ml-2 cursor-pointer w-[120px] h-[30px] rounded-2xl flex items-center justify-center bg-[#fbcfe8] text-pink-500">SIDES</button>
+                        <div class="*:text-2xl *: text-gray-500">
+                            <i class="icon-clock "></i>
+                            <p class="inline mr-2">30 Minutes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- drink/////////////// -->
+            <div id="drink" class="w-full  h-full bg-[#f9f7f3] absolute z-[-999] flex flex-wrap *:w-[400px] *:h-[400px] *:mx-auto *:my-4  *:bg-white *:rounded-2xl">
+                <!-- /////////////first drink//// -->
+                <div class="lg:mr-16">
+                    <figure class="w-full h-[65%] rounded-2xl *:rounded-t-2xl">
+                        <img class="w-full h-full object-cover" src="img/10.webp" alt="">
+                    </figure>
+                    <a class="text-3xl flex mt-8 ml-2" href="">Strawberry Caprese Summer Salad</a>
+                    <div class="row mt-5 justify-between  ">
+                        <button id="drinkmenu1" class="ml-2  w-[120px] h-[30px] rounded-2xl flex items-center justify-center cursor-pointer  bg-[#fecaca] text-red-400">DRINKS</button>
+                        <div class="*:text-2xl *: text-gray-500 ">
+                            <i class="icon-clock"></i>
+                            <p class="inline mr-2">30 Minutes</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /////////seconed drink////////// -->
+                <div class="lg:ml-16">
+                    <figure class="w-full h-[65%] rounded-2xl *:rounded-t-2xl">
+                        <img class="w-full h-full object-cover" src="img/11.webp" alt="">
+                    </figure>
+                    <a class="text-3xl flex mt-8 ml-2" href="">Strawberry Caprese Summer Salad</a>
+                    <div class="row mt-5 justify-between ">
+                        <button id="drinkmenu2"  class="ml-2 cursor-pointer w-[120px] h-[30px] rounded-2xl flex items-center justify-center bg-[#fecaca] text-red-400">DRINKS</button>
+                        <div class="*:text-2xl *: text-gray-500">
+                            <i class="icon-clock "></i>
+                            <p class="inline mr-2">30 Minutes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+<script>
+    const breakfastmenu = document.getElementById('breakfastmenu')
+    const breakfastmenu1 = document.getElementById('breakfastmenu1')
+    const breakfastmenu2 = document.getElementById('breakfastmenu2')
+    const breakfast = document.getElementById('breakfast')
+
+    const lunchmenu = document.getElementById('lunchmenu')
+    const lunchmenu1 = document.getElementById('lunchmenu1')
+    const lunchmenu2 = document.getElementById('lunchmenu2')
+    const lunch = document.getElementById('lunch')
+
+    const dessertmenu = document.getElementById('dessertmenu')
+    const dessertmenu1 = document.getElementById('dessertmenu1')
+    const dessertmenu2 = document.getElementById('dessertmenu2')
+    const dessertmenu3 = document.getElementById('dessertmenu3')
+    const dessert = document.getElementById('dessert')
+
+    const sides = document.getElementById('sides')
+    const sidesmenu = document.getElementById('sidesmenu')
+    const sidesmenu1 = document.getElementById('sidesmenu1')
+    const sidesmenu2 = document.getElementById('sidesmenu2')
+
+    const drink = document.getElementById('drink')
+    const drinkmenu = document.getElementById('drinkmenu')
+    const drinkmenu1 = document.getElementById('drinkmenu1')
+    const drinkmenu2 = document.getElementById('drinkmenu2')
+    
+  
+    // breakfast///////////////////////
+    breakfastmenu.addEventListener('click', (val, i) => {
+        breakfast.style.zIndex = ' 999'
+        lunch.style.zIndex = ' -999'
+        dessert.style.zIndex = ' -999'
+        sides.style.zIndex = ' -999'
+        drink.style.zIndex = ' -999'
+        
+    })
+    // breakfastmenu1///////////////////////
+    breakfastmenu1.addEventListener('click', (val, i) => {
+        breakfast.style.zIndex = ' -999'
+        
+    })
+    // breakfastmenu2///////////////////////
+    breakfastmenu2.addEventListener('click', (val, i) => {
+        breakfast.style.zIndex = ' -999'
+        
+    })
+
+        // lunch///////////////////////
+    lunchmenu.addEventListener('click', (val, i) => {
+        lunch.style.zIndex = ' 999'
+        breakfast.style.zIndex = ' -999'
+        dessert.style.zIndex = ' -999'
+        
+    })
+    // lunchmenu1///////////////////////
+    lunchmenu1.addEventListener('click', (val, i) => {
+        lunch.style.zIndex = ' -999'
+        
+    })
+    // lunchmenu2///////////////////////
+    lunchmenu2.addEventListener('click', (val, i) => {
+        lunch.style.zIndex = ' -999'
+        
+    })
+
+
+    ////////dessert/////////////
+    dessertmenu.addEventListener('click', (val, i) => {
+        dessert.style.zIndex = ' 999'
+        breakfast.style.zIndex = ' -999'
+        lunch.style.zIndex = ' -999'
+        sides.style.zIndex = ' -999'
+        drink.style.zIndex = ' -999'
+        
+    })
+    // lunchmenu1///////////////////////
+    dessertmenu1.addEventListener('click', (val, i) => {
+        dessert.style.zIndex = ' -999'
+        
+    })
+    // lunchmenu2///////////////////////
+    dessertmenu2.addEventListener('click', (val, i) => {
+        dessert.style.zIndex = ' -999'
+        
+    })
+    // lunchmenu3///////////////////////
+    dessertmenu3.addEventListener('click', (val, i) => {
+        dessert.style.zIndex = ' -999'
+        
+    })
+    // lunchmenu2///////////////////////
+    dessertmenu2.addEventListener('click', (val, i) => {
+        dessert.style.zIndex = ' -999'
+        
+    })
+
+    
+        // sides///////////////////////
+    sidesmenu.addEventListener('click', (val, i) => {
+        sides.style.zIndex = ' 999'
+        lunch.style.zIndex = ' -999'
+        breakfast.style.zIndex = ' -999'
+        dessert.style.zIndex = ' -999'
+        drink.style.zIndex = ' -999'
+        
+    })
+    // sidesmenu1///////////////////////
+    sidesmenu1.addEventListener('click', (val, i) => {
+        sides.style.zIndex = ' -999'
+        
+    })
+    // sidesmenu2///////////////////////
+    sidesmenu2.addEventListener('click', (val, i) => {
+        sides.style.zIndex = ' -999'
+        
+    })
+
+     
+        // sides///////////////////////
+    drinkmenu.addEventListener('click', (val, i) => {
+        drink.style.zIndex = ' 999'
+        sides.style.zIndex = ' -999'
+        lunch.style.zIndex = ' -999'
+        breakfast.style.zIndex = ' -999'
+        dessert.style.zIndex = ' -999'
+        
+    })
+    // drinkmenu1///////////////////////
+    drinkmenu1.addEventListener('click', (val, i) => {
+        drink.style.zIndex = ' -999'
+        
+    })
+    // drinkmenu2///////////////////////
+    drinkmenu2.addEventListener('click', (val, i) => {
+        drink.style.zIndex = ' -999'
+        
+    })
+</script>
+
+</html>
