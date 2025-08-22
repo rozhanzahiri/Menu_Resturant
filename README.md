@@ -1,9 +1,9 @@
 # Menu_Resturant
-- [Demo Project](https://rozhanzahiri.github.io/Bank_card/)
+- [Demo Project](https://rozhanzahiri.github.io/Menu_Resturant/)
 
 - Developed by Rozhan Zahiri
 
-- Created - 2025-08-15
+- Created - 2025-08-22
 
 - Technologies Used - Html , css ,js
 
